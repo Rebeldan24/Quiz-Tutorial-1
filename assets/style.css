@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Nova+Square&display=swap');
 :root {
-    background-color: rgb(29, 26, 26);
+background-image: url(/images/Buffffy_background.jpg);
+background-size:cover;
+
 }
 
 * {
@@ -58,23 +60,24 @@ h2 {
 }
 
 .btn {
-    font-size: 2.4rem;
-    padding: 2rem 0;
-    width: 30rem;
+    height: 70px;
+    width: 250px;
     text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(#bf8006, #f8d201);
+    color: #191e2d;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 30px 10px;
+    border: 1px solid #f3d031;
     margin-bottom: 1rem;
-    text-decoration: none;
-    color: rgb(28, 26, 26);
-    background:  linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-    border-radius: 4px;
-
+    
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-    transition: transform 150ms;
-    transform: scare(1.03);
+   
+    box-shadow: inset 3px 3px 5px rgba(255, 255, 255, 0.5), inset -2px -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .btn[disabled]:hover {
@@ -103,7 +106,7 @@ h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: cneter;
+    align-items: center;
     max-width: 30rem;
 }
 
