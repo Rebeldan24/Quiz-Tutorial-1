@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Nova+Square&display=swap');
 :root {
-background-image: url(/images/Buffffy_background.jpg);
-background-size:cover;
+    background-image: url(/images/BUFFY_NFH_V1_1920x1080.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -11,12 +13,17 @@ background-size:cover;
     padding: 0;
     font-size: 62.5%;
     font-family: "Nova Square", cursive;
+   
 }
 
 h1 {
-    font-size: 5.4rem;
-    color: #fff;
+    font-size: 5.6rem;
+    color: rgb(224, 24, 24);
     margin-bottom: 5rem;
+    font-size: 4rem;
+    font-weight: 1800;
+    
+    
 }
 
 h2 {
@@ -27,12 +34,12 @@ h2 {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
+    margin:auto;
     padding: 2rem;
 
 }
@@ -40,6 +47,8 @@ h2 {
 .flex-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .flex-center {
@@ -70,7 +79,7 @@ h2 {
     font-weight: 700;
     border-radius: 30px 10px;
     border: 1px solid #f3d031;
-    margin-bottom: 1rem;
+    margin-top: 20rem;
     
 }
 
@@ -87,19 +96,6 @@ h2 {
 }
 
 
-#highscore-btn {
-    background:  linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
-}
-
-#highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5); 
-}
-
-.fa-sharp fa-solid fa-crown {
-    font-size: 2.5rem;
-    margin-left: 1rem;
-
-}
 
 /* End Page CSS */
 .end-form-container {
@@ -116,7 +112,7 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(51, 59, 63, 0.5);
 
 }
 
@@ -137,10 +133,7 @@ input::placeholder {
 
 }
 
-#saveScoreBtn {
-    border: none;
 
-}
 .fa-house {
     margin-left: 1rem;
     font-size: 2rem;

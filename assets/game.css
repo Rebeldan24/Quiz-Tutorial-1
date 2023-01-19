@@ -1,20 +1,38 @@
 body {
-    color: #fff;
+    color: rgb(33, 31, 31);
 }
 
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(18, 93, 255);
+    border-radius: 34px;
+    background: rgb(208, 206, 206);
     font-size: 3rem;
     min-width: 80rem;
+    opacity: 0.8;
+    
+}
+#question {
+    background: rgb(208, 206, 206);
+    font-size: 3rem;
+    min-width: 90rem;
+    border-radius: 14px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(28, 26, 26);
+    opacity: 0.6;
+    box-sizing: border-box;
+    
+    
+    
+
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(102, 105, 109);
     transform: scale(1.02);
     transform: transform 100ms;
 
@@ -22,7 +40,7 @@ body {
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: white;
+    color: rgb(28, 26, 26);
 }
 
 .choice-text {
@@ -48,6 +66,10 @@ body {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    color: rgb(214, 24, 24);
+    font-weight: bolder;
+    
+ 
 }
 
 .hud-main-text {
@@ -57,16 +79,16 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11,223,36);
+    border: 0.2rem solid rgb(214, 24, 24);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
-
+   
 }
 
 #progressBarFull {
     height: 100%;
-    background: rgb(11,223,36);
+    background: rgba(214,24,24);
     width: 0%;
 }
 
