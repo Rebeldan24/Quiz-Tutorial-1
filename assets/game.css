@@ -6,13 +6,17 @@ body {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 34px;
+    border-radius: 4px;
     background: rgb(208, 206, 206);
     font-size: 3rem;
     min-width: 80rem;
     opacity: 0.8;
+
     
 }
+
+
+
 #question {
     background: rgb(208, 206, 206);
     font-size: 3rem;
@@ -79,7 +83,7 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(214, 24, 24);
+    border: 0.2rem solid rgba(249, 214, 39, 1);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -88,7 +92,7 @@ body {
 
 #progressBarFull {
     height: 100%;
-    background: rgba(214,24,24);
+    background: rgba(249,214,39, 1);
     width: 0%;
 }
 
