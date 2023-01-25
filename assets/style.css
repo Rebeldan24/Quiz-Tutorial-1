@@ -11,7 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 50%;
+    font-size: 57%;
     font-family: "Nova Square", cursive;
    
 }
@@ -34,13 +34,14 @@ h2 {
 
 .container {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
     margin:auto;
     padding: 2rem;
+    flex-direction: column;
 
 }
 
@@ -80,7 +81,7 @@ h2 {
     font-weight: 700;
     border-radius: 30px 10px;
     border: 1px solid #f3d031;
-    margin-top: 3rem;
+
     
 }
 
